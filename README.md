@@ -9,6 +9,7 @@ You just need to get these files into YourPhoneGapProject/www/, so either `git c
 
 Directory structure:
 
+```
 /angular-phonegap-seed
     /css
         - index.css
@@ -26,6 +27,7 @@ Directory structure:
         - view.html
     /res
         - whatever is in res
+```
 
 Build and run your project, and you should be good to go.
 
