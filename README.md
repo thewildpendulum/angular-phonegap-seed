@@ -5,7 +5,7 @@ A barebones seed project for getting started with PhoneGap and AngularJS (with r
 
 ## Install
 
-You just need to get these files into YourPhoneGapProject/www/, so either `git clone <url> www` or download the zip and 'move em in there. Note that I started from an iOS project on OS X 10.8.2, so act accordingly.
+You just need to get these files into YourPhoneGapProject/www/, so either `git clone <url> www` or download the zip and move 'em in there. Note that I started from an iOS project on OS X 10.8.2, so act accordingly.
 
 Directory structure:
 
