@@ -3,6 +3,8 @@ angular-phonegap-seed
 
 A barebones seed project for getting started with PhoneGap and AngularJS (with routing!)
 
+This project also includes a service for wrapping calls to Cordova APIs as presented by Brian Ford in [this awesome blog post](http://briantford.com/blog/angular-phonegap.html).
+
 ## Install
 
 You just need to get these files into YourPhoneGapProject/www/, so either `git clone <url> www` or download the zip and move 'em in there. Note that I started from an iOS project on OS X 10.8.2, so act accordingly.
