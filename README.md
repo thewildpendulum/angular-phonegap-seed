@@ -20,7 +20,8 @@ Directory structure:
         - controllers.js
         - routers.js
     /lib
-        - angular-1.0.5.js
+        - angular-1.1.5.js
+        - angular-1.1.5.min.js
         - cordova-2.5.0.js
     /partials
         - main.html
