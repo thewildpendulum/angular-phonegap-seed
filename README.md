@@ -23,9 +23,9 @@ Directory structure:
     /img
         - logo.png
     /js
+        - app.js
         - controllers.js
         - index.js
-        - routers.js
         - services.js
     /lib
         - angular-1.1.5.js
