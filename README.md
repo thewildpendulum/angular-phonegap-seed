@@ -1,13 +1,18 @@
 angular-phonegap-seed
 =====================
 
-A barebones seed project for getting started with PhoneGap and AngularJS (with routing!)
+A barebones seed project for getting started with [PhoneGap](phonegap.com) and [AngularJS](http://angularjs.org/) (with routing!)
+
+Built using [PhoneGap-CLI](https://github.com/mwbrooks/phonegap-cli/):
+* Target: iOS 6
+* Cordova: 2.9.0
+* Angular: 1.1.5
 
 This project also includes a service for wrapping calls to Cordova APIs as presented by Brian Ford in [this awesome blog post](http://briantford.com/blog/angular-phonegap.html).
 
 ## Install
 
-You just need to get these files into YourPhoneGapProject/www/, so either `git clone <url> www` or download the zip and move 'em in there. Note that I started from an iOS project on OS X 10.8.2, so act accordingly.
+You just need to get these files into YourPhoneGapProject/www/, so either `git clone <url> www` or download the zip and move 'em in there.
 
 Directory structure:
 
@@ -18,23 +23,24 @@ Directory structure:
     /img
         - logo.png
     /js
-        - app.js
         - controllers.js
+        - index.js
         - routers.js
+        - services.js
     /lib
         - angular-1.1.5.js
         - angular-1.1.5.min.js
-        - cordova-2.5.0.js
+        - cordova.js
     /partials
         - main.html
         - view.html
     /res
-        - whatever is in res
+        // app and cordova images
+    /spec
+        // tests
 ```
 
 Build and run your project, and you should be good to go.
-
-Be aware that I have made no attempt to make it look attractive. This may eventually be improved upon.
 
 ## MIT License
 
