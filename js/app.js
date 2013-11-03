@@ -1,8 +1,8 @@
-angular.module('App', ['App.services', 'App.controllers'])
-    .config(['$compileProvider', function ($compileProvider) {
-        $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
-    }])
-    .config(['$routeProvider', function ($routeProvider) {
+angular.module('App', ['ngRoute', 'App.services', 'App.controllers'])
+    // .config(['$compileProvider', function ($compileProvider) {
+    //     $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
+    // }])
+    .config(function ($routeProvider) {
         $routeProvider
         .when('/', {
             controller: 'MainCtrl',
@@ -13,4 +13,4 @@ angular.module('App', ['App.services', 'App.controllers'])
             templateUrl: 'partials/view.html'
         })
         .otherwise({redirectTo: '/'});
-    }]);
+    });

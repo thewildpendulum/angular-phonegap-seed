@@ -3,10 +3,10 @@ angular-phonegap-seed
 
 A barebones seed project for getting started with [PhoneGap](phonegap.com) and [AngularJS](http://angularjs.org/) (with routing!)
 
-Built using [PhoneGap-CLI](https://github.com/mwbrooks/phonegap-cli/):
-* Target: iOS 6
-* Cordova: 2.9.0
-* Angular: 1.1.5
+Built using [PhoneGap-CLI](https://github.com/phonegap/phonegap-cli):
+* Target: iOS 7.0.3
+* Cordova: 3.1.0
+* Angular: 1.2.0-rc.3
 
 This project also includes a service for wrapping calls to Cordova APIs as presented by Brian Ford in [this awesome blog post](http://briantford.com/blog/angular-phonegap.html).
 
@@ -28,9 +28,8 @@ Directory structure:
         - index.js
         - services.js
     /lib
-        - angular-1.1.5.js
-        - angular-1.1.5.min.js
-        - cordova.js
+        - angular-1.2.0-rc3.js
+        - angular-1.2.0-rc3.min.js
     /partials
         - main.html
         - view.html
